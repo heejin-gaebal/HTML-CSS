@@ -17,7 +17,7 @@ body{
     transition: ease-in-out 0.3s; opacity: 0.8;
 }
 #header .logo img{width: 80px;}
-#header .menu{width: 60px; height: 60px; background: url(/resources/image/menu.png) no-repeat;cursor: pointer;}
+#header .menu{width: 60px; height: 60px; background: url(../../resources/image/menu.png) no-repeat;cursor: pointer;}
 #header .menu ul{
     list-style: none;
     padding: 0;
@@ -46,11 +46,11 @@ body{
 .section1 {width: 100%;position: relative;margin-bottom: 150px;}
 .section1 .colorBox{
     width: 100%; min-height: 600px; border-radius: 10px;
-    background: url(/resources/image/img01.png) no-repeat 50% 50%; background-size: cover;
+    background: url(../../resources/image/img01.png) no-repeat 50% 50%; background-size: cover;
     }
 .section1 .whiteBox{
     width: 90%; height: 500px; border-radius: 10px; 
-    background: url(/resources/image/img04.png) no-repeat; background-size: cover;
+    background: url(../../resources/image/img04.png) no-repeat; background-size: cover;
     position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
 }
 .section1 .whiteBox::before{
@@ -205,14 +205,14 @@ body{
 .box2 .hot .plc07::after{content: "BANGKOK";}
 .box2 .hot .plc08::after{content: "DANANG";}
 
-.box2 .hot .plc01{width: 100%;background: url(/resources/image/hot01.jpg) 100% no-repeat;background-size: cover;}
-.box2 .hot .plc02{width: 100%;background: url(/resources/image/hot02.jpg) 0% no-repeat;background-size: cover;}
-.box2 .hot .plc03{width: 100%;background: url(/resources/image/hot03.jpg) 50% no-repeat;background-size: cover;}
-.box2 .hot .plc04{width: 100%;background: url(/resources/image/hot04.jpg) 100% no-repeat;background-size: cover;}
-.box2 .hot .plc05{width: 100%;background: url(/resources/image/hot05.jpg) 50% no-repeat;background-size: cover;}
-.box2 .hot .plc06{width: 100%;background: url(/resources/image/hot06.jpg) 0% no-repeat;background-size: cover;}
-.box2 .hot .plc07{width: 100%;background: url(/resources/image/hot07.jpg) 60% no-repeat;background-size: cover;}
-.box2 .hot .plc08{width: 100%;background: url(/resources/image/hot08.jpg) 80% no-repeat;background-size: cover;}
+.box2 .hot .plc01{width: 100%;background: url(../../resources/image/hot01.jpg) 100% no-repeat;background-size: cover;}
+.box2 .hot .plc02{width: 100%;background: url(../../resources/image/hot02.jpg) 0% no-repeat;background-size: cover;}
+.box2 .hot .plc03{width: 100%;background: url(../../resources/image/hot03.jpg) 50% no-repeat;background-size: cover;}
+.box2 .hot .plc04{width: 100%;background: url(../../resources/image/hot04.jpg) 100% no-repeat;background-size: cover;}
+.box2 .hot .plc05{width: 100%;background: url(../../resources/image/hot05.jpg) 50% no-repeat;background-size: cover;}
+.box2 .hot .plc06{width: 100%;background: url(../../resources/image/hot06.jpg) 0% no-repeat;background-size: cover;}
+.box2 .hot .plc07{width: 100%;background: url(../../resources/image/hot07.jpg) 60% no-repeat;background-size: cover;}
+.box2 .hot .plc08{width: 100%;background: url(../../resources/image/hot08.jpg) 80% no-repeat;background-size: cover;}
 
 .box2 .more{
     display: inline-block;text-decoration: none;font-weight: 600;
