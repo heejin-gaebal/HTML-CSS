@@ -1,0 +1,22 @@
+.box{
+    width: 100px; height: 100px;
+    background: lightgray;
+}
+#test01:hover{
+    /* transform: translate(100px, 100px); */
+    /* transform: scale(2); */
+    /* transform: skewY(-30deg); */
+}
+
+#test02:hover{
+    /* 3D 변환 */
+    transform: perspective(300px) rotate3d(1,1,1,45deg);
+}
+
+#test03:hover{
+    transform: rotateY(180deg);
+    /* 뒷면 안보이게 하기 */
+    backface-visibility:hidden;
+}
+
+
